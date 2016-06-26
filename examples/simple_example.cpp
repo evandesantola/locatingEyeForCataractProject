@@ -8,9 +8,16 @@
  * Copyright (C) 2012 Michal Uricar
  */
 
+
+
+#include <cv.h>
+#include <cvaux.h>
+#include <highgui.h>
+
 #include <highgui.h>
 #include <cstring>
 #include <cmath>
+#include <stdio.h>
 
 #include "flandmark_detector.h"
 
