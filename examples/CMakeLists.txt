@@ -36,4 +36,3 @@ target_link_libraries(${PROJECT_NAME}_1 flandmark_static ${CV_LIBS_1} ${CV_LIBS_
 set(${PROJECT_NAME}_example2_srcs example2.cpp)
 add_executable(${PROJECT_NAME}_2 ${${PROJECT_NAME}_example2_srcs})
 target_link_libraries(${PROJECT_NAME}_2 flandmark_static ${CV_LIBS_1} ${CV_LIBS_2})
-

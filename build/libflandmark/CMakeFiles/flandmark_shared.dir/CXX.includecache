@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/evan/eyeDetection/flandmark/libflandmark/flandmark_detector.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+liblbp.h
+/home/evan/eyeDetection/flandmark/libflandmark/liblbp.h
+flandmark_detector.h
+/home/evan/eyeDetection/flandmark/libflandmark/flandmark_detector.h
+opencv2/imgproc/imgproc_c.h
+/home/evan/eyeDetection/flandmark/libflandmark/opencv2/imgproc/imgproc_c.h
+
+/home/evan/eyeDetection/flandmark/libflandmark/flandmark_detector.h
+msvc-compat.h
+/home/evan/eyeDetection/flandmark/libflandmark/msvc-compat.h
+opencv2/core/core_c.h
+/home/evan/eyeDetection/flandmark/libflandmark/opencv2/core/core_c.h
+opencv2/imgproc/types_c.h
+/home/evan/eyeDetection/flandmark/libflandmark/opencv2/imgproc/types_c.h
+
+/home/evan/eyeDetection/flandmark/libflandmark/liblbp.cpp
+liblbp.h
+/home/evan/eyeDetection/flandmark/libflandmark/liblbp.h
+
+/home/evan/eyeDetection/flandmark/libflandmark/liblbp.h
+msvc-compat.h
+/home/evan/eyeDetection/flandmark/libflandmark/msvc-compat.h
+
+/home/evan/eyeDetection/flandmark/libflandmark/msvc-compat.h
+stdint.h
+-
+
